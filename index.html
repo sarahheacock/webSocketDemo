@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/client/index.css">
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+  <h1>Hello</h1>
+  <div id="messageContainer"></div>
+  <div class="inputContainer">
+    <div class="row">
+      <div class="col-sm-9">
+        <textarea class="form-control" rows="5" id="myInput"></textarea>
+      </div>
+      <div class="col-sm-3">
+        <button class="btn btn-primary" onclick="socketMessage()">
+          Send with WebSocket
+        </button>
+        <button class="btn btn-outline-primary" onclick="ajaxMessage()">
+          Send with AJAX
+        </button>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="client/index.js"></script>

@@ -1,0 +1,63 @@
+body {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  background-color: WhiteSmoke;
+}
+
+h1 {
+  text-align: center;
+  margin: 1%;
+}
+
+#messageContainer {
+  height: 50vh;
+  overflow: scroll;
+}
+
+.message {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  font-size: 125%;
+}
+
+.blue {
+  color: #0275d8;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  font-size: 125%;
+}
+
+.inputContainer {
+  height: 20vh;
+
+  position: absolute;
+  top: 70vh;
+  padding: 1%;
+
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.btn {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
